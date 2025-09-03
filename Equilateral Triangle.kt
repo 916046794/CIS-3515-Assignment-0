@@ -1,0 +1,2 @@
+class `Equilateral Triangle` : Triangle {
+}
