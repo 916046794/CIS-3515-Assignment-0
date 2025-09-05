@@ -5,5 +5,6 @@ abstract class Shape (_name : String) : Dimensionable{
     fun getArea(): Double {
         return 0.0;
     }
+
     override fun printDimensions(){}
 }
