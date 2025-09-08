@@ -2,8 +2,8 @@ class `Equilateral Triangle`(_name : String, side: Double) : Triangle(_name, sid
     var side = 0.0
 
     //the overrides below could probably be ignored by me deleting the functions -v-
-    override fun getArea(){
-        super.getArea()
+    override fun getArea(): Double{
+        return super.getArea()
     }
 
     override fun printDimensions(){

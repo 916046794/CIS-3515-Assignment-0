@@ -1,4 +1,4 @@
-class Triangle: Shape{
+open class Triangle: Shape{
     var side_i = 0.0
     var side_ii = 0.0
     var side_iii = 0.0
@@ -22,7 +22,7 @@ class Triangle: Shape{
     }
 
     fun setDimensions(newSideI: Double, newSideIi: Double, newSideIii: Double){
-        side_ii = newSideI
+        side_i = newSideI
         side_ii = newSideIi
         side_iii = newSideIii
     }
